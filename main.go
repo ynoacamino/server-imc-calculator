@@ -8,6 +8,8 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/ynoacamino/server-imc-calculator/db"
 	"github.com/ynoacamino/server-imc-calculator/structs"
+
+	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {
