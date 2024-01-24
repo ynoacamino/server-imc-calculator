@@ -1,0 +1,7 @@
+CREATE TABLE imc (
+  user_id INT NOT NULL AUTO_INCREMENT,
+  peso DOUBLE NOT NULL,
+  talla DOUBLE  NOT NULL,
+  response DOUBLE  NOT NULL,
+  PRIMARY KEY (user_id)
+)
